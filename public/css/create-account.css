@@ -1,0 +1,275 @@
+@import url("styles.css");
+
+body, html{
+    height: 100%;
+    
+
+}
+
+.wrapper{
+    display: flex;
+   
+    height: 100vh;
+
+}
+
+
+
+.container-one{
+    display: flex;
+    flex-direction: column;
+    height: 138vh;
+    width: 30vw;
+    
+    
+    
+    
+    
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    text-align: left;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-bottom: 11rem;
+}
+
+.form{
+    padding-top: 10rem;
+    padding-bottom: 2rem !important;
+    
+    
+    
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form h3{
+    text-align: left;
+    font-weight: 300;
+    font-size: 26px;
+    margin-bottom: 4rem;
+    
+}
+
+.form button{
+    margin-top: 1.5rem;
+    padding:  1rem 6.5rem;
+    font-size: 16px;
+    font-weight: 900;
+    color: white;
+    background-color: #012b3a;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    min-width: 300px;
+    
+    align-self: center; 
+}
+.form p{
+    width: 40%;
+    text-align: left;
+    align-self: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2rem;
+    color: rgb(63, 63, 63);
+}
+.form a{
+    color: #012b3a;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+.form h3{
+    margin: 3rem auto;
+}
+.container-form{
+    margin: 0 auto;
+    width: 50vw;
+}
+
+.name{
+    width: 40%;
+    align-self: center;
+}
+.testimonial h6{
+    margin-bottom: 12rem;
+}
+.testimonial img{
+    max-width: 350px;
+    position: relative;
+    right: 5rem;
+    
+}
+
+.title{
+    /* margin-left: 9.1rem;
+    width: 40%; */
+    
+    
+}
+
+label.title,
+label.title-biz{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    margin: 0 auto;
+    text-align: left;
+   
+   
+}
+
+input.name{
+    margin-bottom: 2rem;
+    margin-top: 0.3rem;
+    height: 2.5rem;
+    min-width: 350px;
+    max-width: 350px;
+    
+}
+.title-biz{
+    /* margin-left: 12.4rem;
+    width: 40%; */
+    
+}
+
+.testimonial h1{
+    color: black;
+}
+
+.steps{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    width: 100px
+}
+
+
+input:focus{
+    outline: 2px solid #0dff00;
+}
+
+
+
+@media screen and (max-width: 1200px){
+    
+    .container-one{
+        /* display: none; */
+        width: 100vw;
+        height: 5rem;
+
+        
+    }
+    .logo{
+        margin: 0 auto;
+    }
+    .testimonial{
+        display: none;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    
+    .form p{
+        width: 320px;
+    }
+    .form h3{
+        text-align: center;
+    }
+}
+
+.bar-item{
+    width: 200px;
+    height: 10px;
+    background-color: #0dff00;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 0.5rem;
+    
+    
+    
+    
+}
+
+.bar-item:first-child{
+    background-color: #003554;
+}
+.bars{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width: 990px){
+    /* .container-form{
+        width: 1000px;
+        margin: 3rem;
+    } */
+   
+    input.title{
+        width: 90vw;
+    }
+    .form h3{
+        margin: 3rem auto;
+    }
+}
+
+@media screen and (max-width: 745px){
+
+    
+    .form h3{
+        margin: 3 auto;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .form{
+        min-width: 100%;
+    }
+    .form h3{
+        margin: 3 auto;
+    }
+
+}
+@media screen and (max-width: 680px){
+    .container-form{
+        width: 100vw;
+    }
+    .form h3{
+        margin: 3rem 3rem;
+        text-align: center;
+    }
+    .form{
+        width: 60vw;
+      
+    }
+    .logo{
+        margin-bottom: 2rem;
+    }
+    .bars, .steps{
+        width: 80%;
+        margin: 0.5rem auto;
+    }
+}
+/* @media screen and (max-width: 400px){
+    .container-form{
+        width: 100vw;
+    }
+    .form{
+        min-width: 80vw;
+        margin: 0 auto;
+    }
+} */
